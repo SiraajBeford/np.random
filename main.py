@@ -1,4 +1,5 @@
-from src.data_cleaning import DataCombiner, DataCleaner
+from src.data_cleaning import DataCleaner
 
-combiner = DataCombiner()
-combiner.segment_data()
+# Clean the data
+cleaner = DataCleaner()
+cleaner.clean()

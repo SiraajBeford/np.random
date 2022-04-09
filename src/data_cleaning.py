@@ -1,5 +1,4 @@
 from distutils import extension
-from idna import valid_contextj
 import pandas as pd
 import numpy as np
 import os
@@ -16,7 +15,6 @@ class DataCombiner:
         extension = 'csv'
         return glob.glob('*.{}'.format(extension))    
 
-
     def find_valid_input_paths(self):
         valid_inputs =  self.find_valid_input_data()
         valid_input_paths = []
@@ -24,20 +22,21 @@ class DataCombiner:
             valid_input_paths.append(self.data_dir + "\\" + i)
         return valid_input_paths
 
-    def segment_data(self):
+    def segment_data_in_frame(self):
         schedule_list = []
         valid_files = self.find_valid_input_paths()
-
         for i in valid_files:
             schedule_list.append(pd.read_csv(i))
+        return schedule_list
 
-        print(schedule_list)
+class DataCleaner(DataCombiner):
 
-class DataCleaner:
+    def __init__(self):
+        super(DataCleaner, self).__init__()
+        
+    def report_original_data(self):
+        print(self.segment_data_in_frame())
 
-    def __init__(self, data_files):
-        self.data_files = data_files
-
-
-    # def convert_inputs_to_frame:
-
+    def clean(self):
+        uncleaned_data_list = self.segment_data_in_frame()
+        print(uncleaned_data_list)
