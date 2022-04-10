@@ -12,11 +12,7 @@ class DataCombiner:
     def __init__(self):
         self.main_path = os.getcwd()
         self.data_dir = os.getcwd() + "\data"
-<<<<<<< HEAD
         self.file_names = []
-=======
-        self.used_files = []
->>>>>>> 4961fce386261e39daf87c8a068d7a7d64ea1429
 
     def find_valid_input_data(self):
         os.chdir(self.data_dir)
@@ -98,22 +94,6 @@ class DataCleaner(DataCombiner):
     def print_original_data(self):
         print(self.segment_data_in_frame())
 
-<<<<<<< HEAD
     def clean(self):
         uncleaned_data_list = self.segment_data_in_frame()
         return uncleaned_data_list,self.file_names
-=======
-    def print_current_data(self):
-        print(self.cleaned_data_list[0])
-
-    def check_if_dir_empty(self):
-        if len(os.listdir(self.export_path_for_schedules) ) == 0:
-            pass
-        else:    
-            for file_name in os.listdir(self.export_path_for_schedules):
-                # construct full file path
-                file = self.export_path_for_schedules + file_name
-                if os.path.isfile(file):
-                    print('Deleting file:', file)
-                    os.remove(file)
->>>>>>> 4961fce386261e39daf87c8a068d7a7d64ea1429

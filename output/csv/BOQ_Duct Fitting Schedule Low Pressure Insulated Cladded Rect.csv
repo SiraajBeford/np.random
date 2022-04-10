@@ -1,0 +1,46 @@
+﻿Family and Type,Insulation Type,Insulation Thickness,Size,Count,Area,Surface Area,Taper Type,Bend Angle,Bend Nominal Radius Scale
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x250-200x250,4.0,0.0,0.424,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x250-200x250,7.0,0.0,1.484,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x450-200x450,2.0,0.0,0.613,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x500-200x500,1.0,0.0,0.33,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x200-250x200,5.0,0.0,1.325,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x250-250x250,12.0,0.0,3.534,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x450-250x450,1.0,0.0,0.412,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x300-300x300,2.0,0.0,0.424,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x300-300x300,5.0,0.0,2.121,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x350-350x350,10.0,0.0,5.773,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x400-350x400,1.0,0.0,0.619,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x650-350x650,2.0,0.0,1.649,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x700-350x700,4.0,0.0,3.464,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,450x200-450x200,2.0,0.0,1.378,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x200-500x200,1.0,0.0,0.825,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,650x350-650x350,3.0,0.0,4.595,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,700x350-700x350,6.0,0.0,10.391,,90.00°,0.75
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,350x350-400x300,4.0,2.28,0.0,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,450x250-450x200,1.0,0.519,0.0,Flat on Right and Left,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-250x200,3.0,5.456,0.0,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-250x250,4.0,7.376,0.0,,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-300x300,1.0,1.903,0.0,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-350x350,1.0,2.017,0.0,Flat on Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-350x650,1.0,2.191,0.0,Flat on Left,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-450x250,1.0,2.044,0.0,Flat on Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-500x200,1.0,1.959,0.0,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-650x350,2.0,4.38,0.0,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-700x350,3.0,6.676,0.0,Equal Taper,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x900-300x900,1.0,0.0,0.848,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x800-350x800,1.0,0.0,0.948,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x850-350x850,1.0,0.0,0.99,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x850-500x850,1.0,0.0,1.59,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,800x350-800x350,1.0,0.0,2.168,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,900x300-900x300,2.0,0.0,5.089,,90.00°,0.75
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,850x500-850x350,1.0,1.722,0.0,Flat on Right and Left,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1000x1000-1700x400,2.0,7.001,0.0,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-400x350,1.0,2.023,0.0,Flat on Right,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-700x350,1.0,2.228,0.0,Flat on Top,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-800x200,1.0,2.133,0.0,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-800x350,1.0,2.304,0.0,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-850x500,2.0,5.054,0.0,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-900x300,1.0,2.402,0.0,Flat on Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1200x1200-1000x1000,4.0,17.499,0.0,Equal Taper,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x1700-400x1700,4.0,0.0,7.917,,90.00°,0.75
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1000x1000-1700x400,2.0,7.001,0.0,Equal Taper,,

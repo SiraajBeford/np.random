@@ -1,0 +1,14 @@
+﻿Family and Type,Insulation Type,Insulation Thickness,Size,Count,Area,Surface Area,Taper Type,Bend Angle,Bend Nominal Radius Scale
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,450x550-450x550,4.0,0.238,0.0,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,850x550-850x550,4.0,0.329,0.0,,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x350-200x350,2.0,0.0,0.518,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x200-350x200,2.0,0.0,0.907,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,450x550-450x550,4.0,0.0,4.241,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x500-500x500,12.0,0.0,14.137,,90.00°,0.75
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,950x500-500x500,9.0,15.122,0.0,Flat on Top and Bottom,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x950-500x950,1.0,0.0,1.708,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,850x550-850x550,4.0,0.0,11.215,,90.00°,0.75
+M-H Flange Rectangular Takeoff: Standard,Duct Wrap,25 mm,800x500-800x500,16.0,2.367,0.0,,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,850x550-450x550,4.0,6.578,0.0,,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,950x500-500x500,1.0,1.68,0.0,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 900 mm,Duct Wrap,25 mm,1700x550-850x550,4.0,13.736,0.0,,,
