@@ -42,7 +42,7 @@ class DataCleaner(DataCombiner):
         self.uncleaned_data_list = self.segment_data_in_frame()
         self.cleaned_data_list = []
         self.export_schedules = {}
-        self.export_path_for_schedules = self.main_path + '\\' + 'output' + '\\' + 'csv'
+        self.export_path_for_schedules = self.main_path + '\\' + 'data' + '\\' + 'cleaned' 
 
     def clean_all_schedules(self):
         for schedule in self.uncleaned_data_list:
@@ -81,7 +81,7 @@ class DataCleaner(DataCombiner):
         self.export_schedules = dict(zip(self.used_files, self.cleaned_data_list))
 
     def export_cleaned_schedules(self):
-        self.check_if_dir_empty()
+        # self.check_if_dir_empty()
         self.pack_results()
         for key, value in self.export_schedules.items():
             value.to_csv(self.export_path_for_schedules + '\\' + key, encoding='utf-8-sig', index = False)
@@ -95,5 +95,5 @@ class DataCleaner(DataCombiner):
         print(self.segment_data_in_frame())
 
     def clean(self):
-        uncleaned_data_list = self.segment_data_in_frame()
-        return uncleaned_data_list,self.file_names
+
+        return self.cleaned_data_list, self.used_files

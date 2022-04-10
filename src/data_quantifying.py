@@ -56,10 +56,10 @@ class Quantifier():
             data.append(row)
         data.append(['total','','',self.get_cost(self.sum_of_area_of_category)[1]])
         file = pd.DataFrame(data,columns=['category','quantity','rate','cost'])
-        file.to_csv(self.main_dir + '\solution\csv\BOQ_'+str(self.file_names[file_number])+'.csv',index=False)
-        file.to_excel(self.main_dir + '\solution\excel\BOQ_'+str(self.file_names[file_number])+'.xlsx',index=False)
+        file.to_csv(self.main_dir + '\output\csv\BOQ_'+str(self.file_names[file_number])+'.csv',index=False)
+        # file.to_excel(self.main_dir + '\output\excel\BOQ_'+str(self.file_names[file_number])+'.xlsx',index=False)
         
         #file = pd.DataFrame(self.data)
-        # file.to_excel(self.main_dir + '\solution\excel\BOQ.xlsx',index=False)
+        # file.to_excel(self.main_dir + '\output\excel\BOQ.xlsx',index=False)
 
 
