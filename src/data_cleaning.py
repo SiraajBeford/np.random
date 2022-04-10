@@ -39,4 +39,4 @@ class DataCleaner(DataCombiner):
 
     def clean(self):
         uncleaned_data_list = self.segment_data_in_frame()
-        print(uncleaned_data_list)
+        return uncleaned_data_list
