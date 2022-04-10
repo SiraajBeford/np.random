@@ -2,7 +2,8 @@ class DataCategoriser():
 
     def __init__(self,cleaned_data_list):
         super(DataCategoriser, self).__init__()
-        self.data = cleaned_data_list
+        self.data = cleaned_data_list[0]
+        self.file_names = cleaned_data_list[1]
         self.category = [0,0,0,0,0]
         self.current_file_categories = []
         
@@ -38,23 +39,23 @@ class DataCategoriser():
             hmax = int(max(h))
             hmin = int(min(h))
             
-            if wmax<750 or hmax<750 and wmin+hmin<=1150: 
+            if max(wmin,hmin)<750 and wmin+hmin<=1150: 
                 self.category[0] += 1 
                 category[0] += 1
                 cat.append(1) 
-            elif wmax<750 or hmax<750 and wmin+hmin>1150: 
+            if max(wmin,hmin)<750 and wmin+hmin>1150: 
                 self.category[1] += 1 
                 category[1] += 1
                 cat.append(2) 
-            elif wmax>=750 or hmax>=750 and wmax<1350 or hmax<1350: 
+            if max(wmin,hmin)>=750 and max(wmin,hmin)<1350: 
                 self.category[2] += 1 
                 category[2] += 1
                 cat.append(3) 
-            elif wmax>=1350 or hmax>=1350 and wmax<2100 or hmax<2100: 
+            if max(wmin,hmin)>=1350 and max(wmin,hmin)<2100: 
                 self.category[3] += 1 
                 category[3] += 1
                 cat.append(4) 
-            elif wmax>2100 or hmax>2100: 
+            if max(wmin,hmin)>=2100: 
                 self.category[4] += 1 
                 category[4] += 1
                 cat.append(5) 
@@ -74,5 +75,5 @@ class DataCategoriser():
         # print('Items in categories:',self.category)
         
     def data_with_categories(self):
-        return self.data
+        return self.data,self.file_names
         

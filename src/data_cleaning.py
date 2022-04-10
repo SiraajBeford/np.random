@@ -9,6 +9,7 @@ class DataCombiner:
     
     def __init__(self):
         self.data_dir = os.getcwd() + "\data"
+        self.file_names = []
 
     def find_valid_input_data(self):
         os.chdir(self.data_dir)
@@ -20,6 +21,7 @@ class DataCombiner:
         valid_input_paths = []
         for i in valid_inputs:
             valid_input_paths.append(self.data_dir + "\\" + i)
+            self.file_names.append(i.replace('.csv',''))
         return valid_input_paths
 
     def segment_data_in_frame(self):
@@ -39,4 +41,4 @@ class DataCleaner(DataCombiner):
 
     def clean(self):
         uncleaned_data_list = self.segment_data_in_frame()
-        return uncleaned_data_list
+        return uncleaned_data_list,self.file_names
