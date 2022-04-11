@@ -2,6 +2,7 @@ class DataCategoriser():
 
     def __init__(self,cleaned_data_list):
         super(DataCategoriser, self).__init__()
+        
         self.data = cleaned_data_list[0]
         self.file_names = cleaned_data_list[1]
         self.category = [0,0,0,0,0]
@@ -10,7 +11,7 @@ class DataCategoriser():
     def get_all_sizes(self, input_file):
         sizes = []
         for i in range(len(input_file['Size'])):
-            sizes.append(input_file['Size'][i])
+            sizes.append(list(input_file['Size'])[i])
         return sizes
 
     def split_item_size(self, look_up_size):
@@ -34,9 +35,7 @@ class DataCategoriser():
         for dimensions in range(len(split_item_size)):
             widths_heights = split_item_size[dimensions]
             w,h = self.get_width_height(widths_heights)
-            wmax = int(max(w))
             wmin = int(min(w))
-            hmax = int(max(h))
             hmin = int(min(h))
             
             if max(wmin,hmin)<750 and wmin+hmin<=1150: 
@@ -60,8 +59,7 @@ class DataCategoriser():
                 category[4] += 1
                 cat.append(5) 
         self.current_file_categories = cat
-        # print('Items in categories for file number',str(file_number+1) + ':',category) # must remove
-
+        
     def categorization_steps(self):
         for file_number in range(len(self.data)):
             input_file = self.data[file_number]
@@ -72,7 +70,6 @@ class DataCategoriser():
 
     def categorise(self):
         self.categorization_steps()
-        # print('Items in categories:',self.category)
         
     def data_with_categories(self):
         return self.data,self.file_names
