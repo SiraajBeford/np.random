@@ -8,8 +8,6 @@ cleaner.clean_all_schedules()
 cleaner.export_cleaned_schedules()
 
 # Categorise the data
-# print(list(cleaner.clean())[0][7])
-
 categoriser = DataCategoriser(list(cleaner.clean()))
 categoriser.categorise()
 
